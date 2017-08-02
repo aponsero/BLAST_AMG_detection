@@ -3,20 +3,20 @@ export CWD=$PWD
 export BIN_DIR="/rsgrps/bhurwitz/hurwitzlab/bin"
 export PRODIGAL="/rsgrps/bhurwitz/alise/tools/Prodigal/prodigal"
 # where the sample to analyze are
-export SAMPLE="/rsgrps/bhurwitz/alise/my_data/TOV_assemblies/CENF01.fasta"
-export SAMPLE_DIR="/rsgrps/bhurwitz/alise/my_data/BLAST_results/pipeline_AMG_test_GIT"
+export SAMPLE="YOUR/SAMPLE/PATH"
+export SAMPLE_DIR="OUTPUT/DIR/PATH"
 # scripts of the pipeline
 export SCRIPT_DIR="$PWD/scripts"
 export WORKER_DIR="$SCRIPT_DIR/workers"
 #Where the blast Databases are
-export BACTERIAL_DB="/rsgrps/bhurwitz/hurwitzlab/data/patric/genomes/marine_BLASTP_DB/c90_MyDB.faa"
-export VIRAL_DB="/rsgrps/bhurwitz/alise/my_data/REFSEQ_DB/Viruses_PROTEINS/db90_blast_DB/viral_cds_protein_06-17_cl90_cor.faa"
-export FIG_LOG="/rsgrps/bhurwitz/hurwitzlab/data/patric/genomes/marine_BLASTP_DB/figFam_log"
-export TAX_LOG="/rsgrps/bhurwitz/hurwitzlab/data/patric/genomes/marine_BLASTP_DB/taxo_log"
+export BACTERIAL_DB="PATH/TO/DB"
+export VIRAL_DB="PATH/TO/DB"
+export FIG_LOG="PATH/TO/LOG"
+export TAX_LOG="PATH/TO/LOG"
 # Job submission informations
 export QUEUE="standard"
-export GROUP="bhurwitz"
-export MAIL_USER="aponsero@email.arizona.edu"
+export GROUP="yourgroup"
+export MAIL_USER="youremail@email.arizona.edu"
 export MAIL_TYPE="bea"
 
 
