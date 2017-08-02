@@ -5,8 +5,9 @@
 #PBS -l walltime=12:00:00
 #PBS -l cput=600:00:00
 
-LOG="$STDOUT_DIR2/analysis.log"
-ERRORLOG="$STDERR_DIR2/analysis.log"
+HOST=`hostname`
+LOG="$STDOUT_DIR2/$HOST_getPatric_.log"
+ERRORLOG="$STDERR_DIR2/$HOST_error.log"
 
 if [ ! -f "$LOG" ] ; then
 	touch "$LOG"
